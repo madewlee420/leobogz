@@ -1,0 +1,90 @@
+body {
+	background-color: yellow;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #111;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+	text-decoration: none;
+	}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 25px;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 25px;
+}
+
+.nav-links a {
+	font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #00bcd4;
+}
+
+/* Product Section */
+/* Section background spacing */
+.feature-section{
+    padding:120px 0;
+    display:flex;
+    justify-content:center;
+}
+
+/* White feature box */
+.feature-box{
+    background-color:darkgray;
+    width:60%;
+    padding:60px;
+    border-radius:15px;
+    text-align:center;
+}
+
+/* Title */
+.feature-box h1{
+    color:gold;
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+/* Paragraph text */
+.feature-box p{
+    text-align:justify;
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:25px;
+}
+
+.feature-image{
+    display: block;
+    margin:30px auto;
+    width:100%;
+	border-radius:30px;
+	    box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+	}
+}
